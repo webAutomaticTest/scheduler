@@ -1,0 +1,29 @@
+{
+  "name": "schedulertocrawl",
+  "version": "1.0.0",
+  "description": "scheduler to send scenarios to rabbit",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webAutomaticTest/schedulerToCrawl.git"
+  },
+  "keywords": [
+    "scheduler"
+  ],
+  "author": "wei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webAutomaticTest/schedulerToCrawl/issues"
+  },
+  "homepage": "https://github.com/webAutomaticTest/schedulerToCrawl#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "winston": "^2.4.0",
+    "yargs": "^10.0.3"
+  }
+}
