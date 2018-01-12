@@ -32,5 +32,5 @@ files.forEach(function(file) {
 });
 
 app.listen(8091, function() {
-	winston.info('scheduler_to_crawl is listenning on port 8091');
+	winston.info('scheduler is listenning on port 8091');
 });
